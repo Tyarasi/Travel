@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 1, 2021, 3:40:24 PM
+    Author     : LENOVO
+*/
+#root {
+    -fx-background-color: black;
+}
+#prevButton {
+    -fx-background-image: url("../Image/previous.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#nextButton {
+    -fx-background-image: url("../Image/next.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#playPause {
+    -fx-background-image: url("../Image/play.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#playPause:selected {
+    -fx-background-image: url("../Image/pause.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#volume {
+    
+}
+#browse {
+    -fx-background-image: url("../Image/browse.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#toolContainer {
+}
